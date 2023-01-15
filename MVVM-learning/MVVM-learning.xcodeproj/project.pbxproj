@@ -13,6 +13,7 @@
 		68359E5D297427FB006C77DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68359E5C297427FB006C77DC /* Assets.xcassets */; };
 		68359E60297427FB006C77DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68359E5E297427FB006C77DC /* LaunchScreen.storyboard */; };
 		68359E6829742879006C77DC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68359E6729742879006C77DC /* TableViewController.swift */; };
+		68359E6A297428D9006C77DC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68359E69297428D9006C77DC /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		68359E5F297427FB006C77DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68359E61297427FB006C77DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68359E6729742879006C77DC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		68359E69297428D9006C77DC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				68359E55297427FA006C77DC /* SceneDelegate.swift */,
 				68359E59297427FA006C77DC /* Main.storyboard */,
 				68359E6729742879006C77DC /* TableViewController.swift */,
+				68359E69297428D9006C77DC /* Profile.swift */,
 				68359E5C297427FB006C77DC /* Assets.xcassets */,
 				68359E5E297427FB006C77DC /* LaunchScreen.storyboard */,
 				68359E61297427FB006C77DC /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68359E54297427FA006C77DC /* AppDelegate.swift in Sources */,
+				68359E6A297428D9006C77DC /* Profile.swift in Sources */,
 				68359E6829742879006C77DC /* TableViewController.swift in Sources */,
 				68359E56297427FA006C77DC /* SceneDelegate.swift in Sources */,
 			);
