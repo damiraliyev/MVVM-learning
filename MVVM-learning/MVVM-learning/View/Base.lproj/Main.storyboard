@@ -52,7 +52,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="age" destination="xRu-B3-e03" id="dfB-Wa-6ja"/>
+                                    <outlet property="ageLabel" destination="xRu-B3-e03" id="w1k-ZJ-0Aq"/>
                                     <outlet property="fullNameLabel" destination="56i-9Z-iHe" id="Sya-4x-NTx"/>
                                 </connections>
                             </tableViewCell>
