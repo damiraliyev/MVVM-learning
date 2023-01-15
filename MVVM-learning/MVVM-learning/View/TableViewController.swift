@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewController: UITableViewController {
     
-    var viewModel: TableViewViewModelType?
+    private var viewModel: TableViewViewModelType?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return viewModel?.numberOfRows ?? 0
+        return viewModel?.numberOfRows() ?? 0
     }
 
     
@@ -36,10 +36,7 @@ class TableViewController: UITableViewController {
         let cellViewModel = viewModel.cellViewModel(forIndexPath: indexPath)
         
         tableViewCell.viewModel = cellViewModel
-        print(tableViewCell.viewModel?.fullName)
         
-        
-
         return tableViewCell
     }
 }
