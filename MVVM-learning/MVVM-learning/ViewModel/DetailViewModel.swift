@@ -19,5 +19,6 @@ class DetailViewModel: DetailViewModelType {
         return String(describing: "\(profile.name) \(profile.secondName) is \(profile.age) old")
     }
     
+    var age: Box<String?> = Box(nil)
     
 }
